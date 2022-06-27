@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template: 5em auto auto 5em / 3em auto auto auto auto 3em;
+    grid-gap: 1em;
+}
+
+.daniel-clifford {
+    background-color: hsl(263, 55%, 52%);
+    grid-row: 2 / 3;
+    grid-column: 2 / 4;
+}
+
+.jonathan-walters {
+    background-color: hsl(217, 19%, 35%);
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
+.jeannete-harmon {
+    background-color: #fff;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+
+}
+
+.patrick-abrams {
+    background-color: hsl(219, 29%, 14%);
+    grid-row: 3 / 4;
+    grid-column: 3 / 5;
+}
+
+.kira-whittle {
+    background-color: #fff;
+    grid-row: 2 / 4;
+    grid-column: 5 / 6;
+}
+
+.grid-item {
+    border-radius: 10px;
+}
