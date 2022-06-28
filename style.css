@@ -10,13 +10,19 @@ body {
     background-color: hsl(210, 46%, 95%);
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
 /* G R I D */
 .testimonial-grid {
     display: grid;
     grid-gap: 3em;
-    grid-template: repeat(2, auto) / repeat(auto-fit, 20em);
-    margin-top: 5vh;
-    margin-left: 10vw;
+    grid-template: repeat(2, auto) / repeat(4, 20em);
 }
 
 .daniel-clifford {
